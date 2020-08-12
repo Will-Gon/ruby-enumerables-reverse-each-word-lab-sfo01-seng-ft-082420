@@ -1,4 +1,5 @@
 require 'pry'
+
 def reverse_each_word_with_each(string)
   array = string.split(" ")
   reversed_array = []
@@ -15,5 +16,5 @@ def reverse_each_word(string)
   back_array << new_array.reverse
   end
   back_array.join(" ")
+  binding pry
 end
-binding pry
