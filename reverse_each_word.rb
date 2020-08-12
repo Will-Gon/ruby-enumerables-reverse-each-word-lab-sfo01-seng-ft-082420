@@ -16,5 +16,4 @@ def reverse_each_word(string)
   end
   back_array.join(" ")
 end
-
 binding pry
